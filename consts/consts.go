@@ -13,11 +13,11 @@ import (
 
 const (
 	// TODO: choose a human-readable part for your hyperchain
-	HRP = ""
+	HRP = "U Sriram"
 	// TODO: choose a name for your hyperchain
-	Name = ""
+	Name = "Sriram"
 	// TODO: choose a token symbol
-	Symbol = ""
+	Symbol = "US"
 )
 
 var ID ids.ID
@@ -38,3 +38,4 @@ var (
 	ActionRegistry *codec.TypeParser[chain.Action, *warp.Message, bool]
 	AuthRegistry   *codec.TypeParser[chain.Auth, *warp.Message, bool]
 )
+
